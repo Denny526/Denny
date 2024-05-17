@@ -32,9 +32,12 @@ step1. git remote set-url origin git@github.com:username/repository.git #将远�
 
 验证连接
 step1. ssh -T git@github.com #命令测试 SSH 连接是否正常
+
 step2. Hi username! You've successfully authenticated, but GitHub does not provide shell access. #如果配置正确，你应该会看到类似以下的信息：
 
  ----------------------------------------------------------------- 
+上版語法與步驟
+
 step1. cd sam    #移動到要上版的資料夾路徑 /
 
 step2. git init  #初始化 Git  /
